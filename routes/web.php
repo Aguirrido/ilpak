@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'ControllerIndex@index');
+Route::get('/soap', 'ControllerIndex@soap');
 
 
