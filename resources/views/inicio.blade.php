@@ -138,9 +138,10 @@
    <h2 class="text-white">Rastreo</h2>
   </div>
   <div class="card-body  " style="border-color:#CDCDCD ">
-    <form action="#" class=" row ">
+    <form action="rastreo" method="post" class=" row ">
+        {{ csrf_field() }}
         <button type="submit "  style="" class="btn offset-md-3 col-md-2 col-sm-4 navcolor text-white btn-lg wow swing">Rastreo <i class="fas fa-2x fa-search-location"></i></button>
-    <input class="form-contro  col-md-5 col-sm-12" style="border-color: #ff0034" type="text" placeholder="Ingrese Su Numero De Rastreo">
+    <input class="form-contro  col-md-5 col-sm-12" style="border-color: #ff0034" name="id_rastreo" type="text" placeholder="Ingrese Su Numero De Rastreo">
 
     </form>
   </div>
