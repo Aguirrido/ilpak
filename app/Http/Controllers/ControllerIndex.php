@@ -31,13 +31,24 @@ class ControllerIndex extends Controller
                 'K_Guia'=>$guia,'K_Usuario'=>'730','K_Cliente'=>'14685','Token'=>'-1','strReferencia'=>''
             );
 
-            $json = ($client->GetRastreoxGuia($checkVatParameters));
-            $xml = simplexml_load_file($json);
-            dd($xml);
+            $result = $client->GetRastreoxGuia($checkVatParameters)->GetRastreoxGuiaResult->any;
+            $data= $this->loadXmlStringAsArray($result);
+
+            dd($data);
 
         } catch ( SOAPFault $e ) {
             echo $e->getMessage().PHP_EOL;
         }
 
+    }
+    public function loadXmlStringAsArray($xmlString)
+    {
+        $array = (array) @simplexml_load_string($xmlString);
+        if(!$array){
+            $array = (array) @json_decode($xmlString, true);
+        } else{
+            $array = (array)@json_decode(json_encode($array), true);
+        }
+        return $array;
     }
 }

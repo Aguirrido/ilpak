@@ -297,7 +297,7 @@
         <tbody>
 
         <tr>
-            <td><button class="btn btn-danger" style=" background-color: #000674"  target="_blank" href="https://www.google.com/maps/place/Av+Bernardo+Reyes+1601,+Industrial,+64440+Monterrey,+N.L./@25.6911716,-100.3256162,17z/data=!4m5!3m4!1s0x866295938dff6eff:0x3735f1575b295a0c!8m2!3d25.6911668!4d-100.3234275">MONTERREY <i class="fas fa-map-marker-alt"></i></button> <p>DIRECCION: BERNARDO REYES # 1601
+            <td><button class="btn btn-danger" style=" background-color: #000674"  href="https://www.google.com/maps/place/Av+Bernardo+Reyes+1601,+Industrial,+64440+Monterrey,+N.L./@25.6911716,-100.3256162,17z/data=!4m5!3m4!1s0x866295938dff6eff:0x3735f1575b295a0c!8m2!3d25.6911668!4d-100.3234275">MONTERREY <i class="fas fa-map-marker-alt"></i></button> <p>DIRECCION: BERNARDO REYES # 1601
 
                     ESQUINA JOSE MARIA BOCANEGRA
 
