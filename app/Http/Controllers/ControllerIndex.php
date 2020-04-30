@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Cassandra\SimpleStatement;
+
+use Illuminate\Support\Collection as Collection;
 use Illuminate\Http\Request;
 use SoapClient;
 
@@ -15,6 +17,11 @@ class ControllerIndex extends Controller
       public function index()
     {
         return view('inicio');
+    }
+
+    public function getview()
+    {
+        return view('rastreo');
     }
 
     public function rastrear( Request $request)
@@ -33,8 +40,16 @@ class ControllerIndex extends Controller
 
             $result = $client->GetRastreoxGuia($checkVatParameters)->GetRastreoxGuiaResult->any;
             $data= $this->loadXmlStringAsArray($result);
+            // dd($data['Detalles']['Detalle']);
+           // dd($data['Mensaje']);
 
-            dd($data);
+            if($data['Mensaje']!= 'OK'){
+
+                Alert::message('The end is near', 'danger');
+            }
+
+            $data= $data['Detalles']['Detalle'];
+            return view('rastreo', compact('data'));
 
         } catch ( SOAPFault $e ) {
             echo $e->getMessage().PHP_EOL;

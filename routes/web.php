@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'ControllerIndex@index');
 Route::get('/soap', 'ControllerIndex@soap');
+
 Route::post('/rastreo', 'ControllerIndex@rastrear');
+
+Route::get('/rastreoview', 'ControllerIndex@getview');
 
 
