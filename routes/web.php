@@ -17,6 +17,8 @@ Route::get('/soap', 'ControllerIndex@soap');
 
 Route::post('/rastreo', 'ControllerIndex@rastrear');
 
+Route::post('/cobertura', 'ControllerIndex@cobertura');
+
 Route::get('/rastreoview', 'ControllerIndex@getview');
 
 

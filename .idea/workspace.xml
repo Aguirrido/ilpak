@@ -2,10 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb16b6b-8a86-4920-8839-afbf6e6a9759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/rastreo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/dist/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/actions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/class-list/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/event-listeners.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/icon.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/init/text.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/icons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/markup/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/options/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/options/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/options/deprecations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/options/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/state.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/modules/utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sweetalert/typings/sweetalert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ilpak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ilpak.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControllerIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControllerIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/estiloscss/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/estiloscss/landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/estilosjs/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mapa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mapa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inicio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/rastreo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/rastreo.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +157,8 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/uxweb/sweet-alert" />
+      <path value="$PROJECT_DIR$/vendor/realrashid/sweet-alert" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZPK5qMFxyAaEXYDQyY3H2GQCDb" />
@@ -130,7 +171,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ilapak" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,6 +183,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ilpak\public" />
       <recent name="C:\laragon\www\ilpak\public\estiloscss" />
     </key>
   </component>
@@ -182,7 +224,19 @@
       <workItem from="1587754883295" duration="931000" />
       <workItem from="1587757714378" duration="636000" />
       <workItem from="1587777573737" duration="9000" />
-      <workItem from="1588115702000" duration="25142000" />
+      <workItem from="1588115702000" duration="27107000" />
+      <workItem from="1588265540191" duration="152000" />
+      <workItem from="1589407309601" duration="42000" />
+      <workItem from="1589481972531" duration="1033000" />
+      <workItem from="1589907731427" duration="56000" />
+      <workItem from="1590959339698" duration="660000" />
+      <workItem from="1591049024870" duration="19975000" />
+      <workItem from="1591198128115" duration="5353000" />
+      <workItem from="1591234133766" duration="1514000" />
+      <workItem from="1591289541195" duration="27466000" />
+      <workItem from="1591375724879" duration="13022000" />
+      <workItem from="1591902496662" duration="30000" />
+      <workItem from="1591904037686" duration="644000" />
     </task>
     <servers />
   </component>
@@ -190,10 +244,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587752248819">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591321759892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587752248819" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591321759892" />
     <state x="487" y="108" key="SettingsEditor" timestamp="1584735573632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585187405913" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1587777573993">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591904040089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587777573993" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591904040089" />
     <state x="182" y="328" width="663" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1584735429971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -218,16 +272,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585332566503" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/inicio.blade.php</url>
-          <line>419</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
